@@ -42,4 +42,35 @@ body {
     .bot {
         grid-area: 3 / 1 / 4 / 2;
         height: 5vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*BOTONES*/
+
+    .button {
+        box-shadow:inset 17px 0px 8px 0px #fce2c1;
+        background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+        background-color:#ffc477;
+        border-radius:8px;
+        border:2px solid #eeb44f;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        text-align: center;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #cc9f52;
+        width: 15vw;
+    }
+    .button:hover {
+        background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+        background-color:#fb9e25;
+    }
+    .button:active {
+        position:relative;
+        top:1px;
     }
