@@ -48,6 +48,7 @@ function chargen() {
 		  document.write("<p>kk</p>");
 		  break;
   }
+  etc
 ```
 
 
