@@ -6,7 +6,6 @@
     <title>A P M</title>
     <link rel="icon" href="../resources/favicon.png">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -14,8 +13,17 @@
             <a href="index.html"><img src="../resources/logo_transparent.png" alt="logotipo"></a>
         </div>
         <div class="mid">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.594697443454!2d-73.9694858845932!3d40.770938279325584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258ece4fc1cdb%3A0xfdb2873329cdd643!2s890%205th%20Ave%2C%20New%20York%2C%20NY%2010021%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1582800347229!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
+            <img src="../resources/teacher.png" alt="teacher_capi">            
+                <form id="form1">
+                    <input type="text"  placeholder="Introduce número" id="numtab">
+                    <button type="button" onclick="generar();">Ver tabla de multiplicar</button>
+
+                </form>
+            <article id="tablas">
+
+            </article>
+
+            </div>
         <div class="bot">
             <a href="tablas.html" class="button">Aprende con Capi</a>
             <a href="calc.html" class="button">¿Cuál eres?</a>
@@ -24,6 +32,6 @@
         </div>
     </div>
 <!-- Script necesario para enlazar iconos de FONTAWESOME -->
-<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg="nest"></script>
+<script src="../js/tabla.js"></script>
 </body>
 </html>
