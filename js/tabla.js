@@ -1,3 +1,4 @@
+
 function generar(){
 	// Selecting the input element and get its value 
 	let j = document.getElementById("numtab").value;
@@ -15,8 +16,11 @@ function generar(){
 		document.write("</ul>");
 		document.write("<a href=tablas.html class=button>Volver a aprender con Capi</a>");
 }
-
 /*
+DESPUES DEL INNER PONER UN IGUAL =============================
+
+
+
 document.getElementById('tablas').innerHTML("<ul>");
 	
 		for(i = 1;i<=10;i++){

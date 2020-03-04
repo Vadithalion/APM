@@ -56,6 +56,8 @@ body {
     font-size: 2em;
 }
 
+
+
 .botonaso {
         box-shadow:inset 0px 1px 0px 0px #fff6af;
         background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -118,6 +120,8 @@ body {
         position:relative;
         top:1px;
     }
+
+
 
 
     /*FORMULARIO*/
