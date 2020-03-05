@@ -10,7 +10,8 @@ body {
     grid-template-rows: 25% 70% 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /*degradado*/
+    background-image: url("../resources/rejilla.jfif");
+    /*degradado
     background: rgba(73,155,234,0);
     background: -moz-linear-gradient(top, rgba(73,155,234,0) 0%, rgba(73,155,234,0.4) 40%, rgba(32,124,229,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,0)), color-stop(40%, rgba(73,155,234,0.4)), color-stop(100%, rgba(32,124,229,1)));
@@ -19,6 +20,7 @@ body {
     background: -ms-linear-gradient(top, rgba(73,155,234,0) 0%, rgba(73,155,234,0.4) 40%, rgba(32,124,229,1) 100%);
     background: linear-gradient(to bottom, rgba(73,155,234,0) 0%, rgba(73,155,234,0.4) 40%, rgba(32,124,229,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+    */
     }
     
 .top {
@@ -138,6 +140,7 @@ body {
         margin-bottom: 20px;
         font-size: 15px;
         padding-bottom: 3px;
+        color: orange;
     }
 .form-style-2 label{
         display: block;
@@ -149,6 +152,7 @@ body {
         float: left;
         padding-top: 8px;
         padding-right: 5px;
+        color: orange;
     }
 .form-style-2 span.required{
         color:red;
