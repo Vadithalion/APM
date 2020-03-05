@@ -21,7 +21,7 @@ DESPUES DEL INNER PONER UN IGUAL =============================
 
 
 
-document.getElementById('tablas').innerHTML("<ul>");
+document.getElementById('tablas').innerHTML(zz"<ul>");
 	
 		for(i = 1;i<=10;i++){
 				document.getElementById('tablas').innerHTML("<li>");
