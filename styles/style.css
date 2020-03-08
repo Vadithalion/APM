@@ -85,6 +85,11 @@ body {
         top:1px;
     }
 
+    #tablas{
+        color: orange;
+        list-style:none;
+    }
+
     /*FIN BOTON GENERADOR*/
 
 .bot {
