@@ -52,4 +52,4 @@ function chargen() {
 ```
 
 
-![Image](https://github.com/Vadithalion/APM/blob/master/resources/Captura4.PNG)
+![Image](https://github.com/Vadithalion/APM/blob/master/resources/Captura3.PNG)
