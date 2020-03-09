@@ -30,6 +30,24 @@
         </div>
 ```
 
+# Aprende con el Capi!
+
+```
+function generar(){
+	let j = document.getElementById("numtab").value;
+
+document.getElementById('tablas').innerHTML = ("<ul>");
+	
+		for(i = 1;i<=10;i++){
+				document.getElementById('tablas').innerHTML += ("<li>");
+				document.getElementById('tablas').innerHTML += (j + "x " + i + "= " + j * i);
+				document.getElementById('tablas').innerHTML += ("</li>");
+			};
+	
+		document.getElementById('tablas').innerHTML += ("</ul>");
+		document.getElementById('numtab').hidden += true;
+		document.getElementById('botonMult').hidden = true;
+```
 
 ![Image](https://github.com/Vadithalion/APM/blob/master/resources/Captura2.PNG)
 
@@ -52,4 +70,4 @@ function chargen() {
 ```
 
 
-![Image](https://github.com/Vadithalion/APM/blob/master/resources/Captura4.PNG)
+![Image](https://github.com/Vadithalion/APM/blob/master/resources/Captura3.PNG)
